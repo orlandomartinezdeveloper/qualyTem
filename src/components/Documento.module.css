@@ -67,9 +67,23 @@
     color: #fff;
     text-align: center;
 }
+.buttonVoltar {
+    background: #1681c8;
+    outline: none;
+    border: none;
+    padding: 10px;
+    color: #fff;
+    border-radius: 10px;
+    cursor: pointer;
+    width: 100%;
 
+}
 
-@media screen and (min-width:700px) {
+.buttonVoltar:hover {
+    background: rgb(0, 128, 255);
+}
+
+@media screen and (min-width:850px) {
     .sublista {
         align-items: center;
     }
@@ -82,14 +96,14 @@
         width: 100px;
     }
     .descripcaoLeft, .descripcaoRight {
-        width: 180px;
+        width: 120px;
     }
     .buttonConsultar {
         width:100px;
     }
 }
 
-@media screen and (min-width:1200px){
+@media screen and (min-width:1320px){
     
     .bloques {
         display: flex;
@@ -98,13 +112,13 @@
         width: 100px;
     }
     .descripcaoLeft, .descripcaoRight {
-        width: 138px;
+        width: 100px;
     }
 
 }
-@media screen and (min-width:1400px){ 
+@media screen and (min-width:1500px){ 
     .descripcaoLeft, .descripcaoRight {
-        width: 180px;
+        width: 130px;
     }
 }
 

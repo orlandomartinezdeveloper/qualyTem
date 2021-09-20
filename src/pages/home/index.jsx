@@ -8,8 +8,8 @@ export const Home = () => {
     return (
         <>
             <PageHeader
-                title="Inicio"
-                caption="Aqui você pode navegar para outras funções do sistema"
+                title="Challenge"
+                caption="Aqui você pode navegar pelo desafío proposto para a vaga de Frontend Junior"
             />
             <PageContent>
                 <Row gutter={8}>

@@ -54,7 +54,7 @@ const Documento = () => {
                     </div>
                 </div>
             </div >
-
+            <div className={DocumentoCss.bloqExterno}><a href='/list'><button className={DocumentoCss.buttonVoltar}>Voltar</button></a></div>
         </div>
     )
 }

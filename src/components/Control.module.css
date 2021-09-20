@@ -29,15 +29,6 @@
     width: 100%;
 }
 
-.lupa {
-    margin-left: -1.5rem;
-    margin-top: 0.25rem;
-
-}
-
-.lupaP {
-    font-size: 1rem;
-}
 
 .botao {
     padding: 0.25rem 1rem;
@@ -48,7 +39,6 @@
     width:100%;
 
 }
-
 
 .inputGrand {
     border: none;
