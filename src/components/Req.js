@@ -59,7 +59,7 @@ const Req = (props) => {
                                         : null}
                             </div>
                         </div>
-                        <div className={ReqCss.bloqExterno}><a href={`/documento/${item.id}`}><button className={ReqCss.buttonConsultar}>Consultar</button></a></div>
+                        <div className={ReqCss.bloqExterno}><a href={`/documento/${item.id}`}><button className={ReqCss.buttonConsultar}>Consultar <i class="fas fa-search"></i></button></a></div>
                     </div>
                 )
                 }

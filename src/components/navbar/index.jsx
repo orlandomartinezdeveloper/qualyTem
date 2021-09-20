@@ -25,12 +25,12 @@ export const Navbar = () => {
                 <Nav className="mr-auto" navbar>
                     <NavItem>
                         <NavLink >
-                            <Link to="/" className="linkMenu">Home</Link>
+                            <Link to="/" className="linkMenu"><i class="fas fa-home"></i> Home</Link>
                         </NavLink>
                     </NavItem>
                     <NavItem>
                         <NavLink>
-                            <Link to="/list" className="linkMenu">Master List</Link>
+                            <Link to="/list" className="linkMenu"><i class="fas fa-clipboard-list"></i> Master List</Link>
                         </NavLink>
                     </NavItem>
                 </Nav>

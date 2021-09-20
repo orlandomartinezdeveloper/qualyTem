@@ -54,6 +54,15 @@
     border: 1px solid #1294eb;
 
 }
+.lupa {
+    margin-left: -1.5rem;
+    margin-top: 0.25rem;
+
+}
+
+.lupaP {
+    font-size: 1rem;
+}
 
 @media screen and (min-width: 1000px) {
 

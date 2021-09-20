@@ -13,10 +13,6 @@
     cursor: pointer;
 }
 
-.linkMenu:hover {
-    text-decoration: underline;
-}
-
 @media (min-width: 1024px)
 {
     .navbar {
